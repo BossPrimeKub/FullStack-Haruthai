@@ -1,0 +1,14 @@
+.slide-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: rgba(245, 245, 245, 0.3);
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.slide-dot.active {
+  background: #d4a853;
+  width: 24px;
+  border-radius: 4px;
+}
